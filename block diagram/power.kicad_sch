@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "45290858-f53f-484e-992c-94dfccfa6cd3")
+	(uuid "c43118a0-879f-45e3-aa9d-06878eb21d19")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
