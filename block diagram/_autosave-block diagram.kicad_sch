@@ -1,0 +1,430 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "77b537aa-abd1-4b45-8666-f13206102f09")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 171.45 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42f3739a-31d0-4000-8eee-c061c868b605")
+	)
+	(junction
+		(at 171.45 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7dbbee-cb56-4e48-a40a-1f3d9579558d")
+	)
+	(junction
+		(at 167.64 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64d0569a-9a55-44bf-8784-365ce830d961")
+	)
+	(junction
+		(at 167.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b448502-c3ab-42a3-9c37-03ac384afcc4")
+	)
+	(wire
+		(pts
+			(xy 167.64 124.46) (xy 185.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d16c21-896c-4bea-be95-ed3391a659e3")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2488db4e-8ccf-42f4-9fa9-e598d731e25a")
+	)
+	(wire
+		(pts
+			(xy 134.62 80.01) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26851d75-5d71-4ee8-aece-386aca9df722")
+	)
+	(wire
+		(pts
+			(xy 171.45 128.27) (xy 171.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2c0659-5601-4b8c-9a73-bdf0301cbc69")
+	)
+	(wire
+		(pts
+			(xy 134.62 80.01) (xy 171.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1e121e-a86f-417a-af80-120299e9adb7")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0b9976-7b9d-49ac-bc24-e6350582fe46")
+	)
+	(wire
+		(pts
+			(xy 167.64 124.46) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fda12c5-fb7c-4912-92d9-7aead54cb255")
+	)
+	(wire
+		(pts
+			(xy 171.45 128.27) (xy 185.42 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5035c412-d3db-4adb-bc0f-49b7ca3db5b4")
+	)
+	(wire
+		(pts
+			(xy 123.19 128.27) (xy 171.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b4552a-f312-4e90-9670-771bdf503dd4")
+	)
+	(wire
+		(pts
+			(xy 123.19 124.46) (xy 167.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c92da6-5614-4d5e-ae93-e8ef9deebab9")
+	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9f3c37-1e40-4788-9fdf-e7e43da70fe3")
+	)
+	(wire
+		(pts
+			(xy 171.45 80.01) (xy 185.42 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2434683-daac-436c-b8c3-84b4d29a2921")
+	)
+	(wire
+		(pts
+			(xy 124.46 63.5) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df35faa6-e575-472b-8bff-f414f88b1bae")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 185.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdaa83a-3c60-4161-b97e-3579e61d7c97")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b9cfc0-7a94-4b85-b5ea-23e0b036f644")
+	)
+	(wire
+		(pts
+			(xy 124.46 67.31) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc34c898-6d1a-4526-9b46-760043574114")
+	)
+	(label "+VBATT"
+		(at 149.86 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e3d97e7-e560-4ac2-9591-363efafe07f3")
+	)
+	(label "+VBATT"
+		(at 149.86 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "119bdaab-8027-41d1-9941-d5319b6f5874")
+	)
+	(label "GND"
+		(at 149.86 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "251cafef-8373-4278-b6e9-154c4c59b8c7")
+	)
+	(label "GND"
+		(at 149.86 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25ed3889-7183-4722-877c-e08f9b059161")
+	)
+	(label "GND"
+		(at 149.86 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6931efd4-4082-4a8e-9aab-919a2cfcff60")
+	)
+	(label "+VBATT"
+		(at 149.86 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe99de16-c60d-481d-b5fd-22df6fcdfea6")
+	)
+	(sheet
+		(at 101.6 59.69)
+		(size 22.86 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "06c90ba9-5280-426d-b704-62779bf0bf86")
+		(property "Sheetname" "Bluetooth"
+			(at 101.6 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bluetooth.kicad_sch"
+			(at 101.6 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 118.11)
+		(size 17.78 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "53392466-a519-4fff-95ed-ccb7624a88e5")
+		(property "Sheetname" "FM receiver"
+			(at 105.41 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fm_receiver.kicad_sch"
+			(at 105.41 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 69.85)
+		(size 21.59 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "a1f87f20-3215-4349-bfe0-f2b04b01f16e")
+		(property "Sheetname" "Power"
+			(at 185.42 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 185.42 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 86.36)
+		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "fb783f16-7e21-420a-9b2f-f624971692e2")
+		(property "Sheetname" "AM reciever"
+			(at 101.6 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "am_receiver.kicad_sch"
+			(at 101.6 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

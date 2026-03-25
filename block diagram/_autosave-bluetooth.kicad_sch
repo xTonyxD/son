@@ -1,0 +1,415 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "507c09dc-1b68-45d6-8ca8-9218e5f85c33")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 53.34 31.75) (xy 53.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29668646-1af7-4c52-901a-e178a58a2d3c")
+	)
+	(wire
+		(pts
+			(xy 165.1 74.93) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38448c8d-9f77-4be0-a0f2-7a355a63309f")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.56) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f101ee-fab4-451d-9d9d-ab2739847f6f")
+	)
+	(wire
+		(pts
+			(xy 139.7 31.75) (xy 53.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afc7864-1726-4390-ac54-f6230b5b8fa2")
+	)
+	(wire
+		(pts
+			(xy 205.74 74.93) (xy 205.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea275dd-4146-42ab-b12d-0df1831cc5d5")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbc7b4b-1f3a-4fcc-8c96-73a4a334896e")
+	)
+	(wire
+		(pts
+			(xy 139.7 35.56) (xy 116.84 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91713094-0070-4cf6-b7f8-c1b29d7550bf")
+	)
+	(wire
+		(pts
+			(xy 205.74 104.14) (xy 261.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0eddd9d-e57a-4823-84ba-732ab96c0c1a")
+	)
+	(wire
+		(pts
+			(xy 195.58 74.93) (xy 205.74 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a955f7-fa7d-4e55-9f2b-f6f87adb780f")
+	)
+	(wire
+		(pts
+			(xy 152.4 62.23) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa243489-6ad7-4747-8b21-86c3c0cbbf23")
+	)
+	(wire
+		(pts
+			(xy 153.67 44.45) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d025a257-0e6b-4d77-9d24-1ae649dc311b")
+	)
+	(wire
+		(pts
+			(xy 93.98 74.93) (xy 106.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d611d3a2-08aa-4e18-a343-366e65db1f23")
+	)
+	(wire
+		(pts
+			(xy 60.96 74.93) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ebd791-15d6-4d18-9e1a-2cfeb520f454")
+	)
+	(hierarchical_label "AUDIO OUT"
+		(shape input)
+		(at 261.62 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17823b34-5788-4b68-80e0-cfb3cc237e55")
+	)
+	(sheet
+		(at 106.68 62.23)
+		(size 22.86 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "1324f5ce-8cac-4bcb-bc52-77b70dc167d6")
+		(property "Sheetname" "RF amplifier"
+			(at 106.68 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 106.68 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09/06c90ba9-5280-426d-b704-62779bf0bf86"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 26.67)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "417f0e0d-496c-4d33-ab2b-9667d838f532")
+		(property "Sheetname" "Power"
+			(at 139.7 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 139.7 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09/06c90ba9-5280-426d-b704-62779bf0bf86"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 62.23)
+		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "7544037c-5971-4176-b35a-579c6645384b")
+		(property "Sheetname" "BT to audio chip"
+			(at 138.43 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 138.43 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09/06c90ba9-5280-426d-b704-62779bf0bf86"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 62.23)
+		(size 12.7 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "9e659067-4319-41ff-a612-0a6ed6b608d1")
+		(property "Sheetname" "an tenna"
+			(at 48.26 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 48.26 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09/06c90ba9-5280-426d-b704-62779bf0bf86"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 60.96)
+		(size 15.24 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "eb3c14d7-3104-4cfe-9d1b-f41596c2e580")
+		(property "Sheetname" "filtering"
+			(at 180.34 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 180.34 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09/06c90ba9-5280-426d-b704-62779bf0bf86"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 62.23)
+		(size 22.86 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "f9469de2-7b75-42d7-b76d-13f6c2871c9c")
+		(property "Sheetname" "RF filter"
+			(at 71.12 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 71.12 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09/06c90ba9-5280-426d-b704-62779bf0bf86"
+					(page "9")
+				)
+			)
+		)
+	)
+)
