@@ -5,6 +5,12 @@
 	(uuid "a6529e5c-5af2-4f9c-bc0d-8bb5e79440e7")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 259.08 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cab6ddc-e22d-4360-993d-4607ded16a88")
+	)
 	(wire
 		(pts
 			(xy 53.34 31.75) (xy 53.34 62.23)
@@ -27,6 +33,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 133.35) (xy 259.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40dda5a6-a5d8-43e4-ab90-dc227a7fdfed")
+	)
+	(wire
+		(pts
 			(xy 116.84 35.56) (xy 116.84 62.23)
 		)
 		(stroke
@@ -34,6 +50,26 @@
 			(type default)
 		)
 		(uuid "44f101ee-fab4-451d-9d9d-ab2739847f6f")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a554b8b-52bb-4d18-9969-b716d21c1ebd")
+	)
+	(wire
+		(pts
+			(xy 193.04 134.62) (xy 212.09 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891dd3d4-eb85-46e9-844e-7361eb995d5d")
 	)
 	(wire
 		(pts
@@ -77,7 +113,17 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 104.14) (xy 261.62 104.14)
+			(xy 259.08 133.35) (xy 259.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcb39a0-1d46-47f4-b283-9a0f24abe3d9")
+	)
+	(wire
+		(pts
+			(xy 205.74 104.14) (xy 259.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -117,6 +163,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 134.62) (xy 161.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94f6339-be68-433e-8e94-49ff89ec1a1b")
+	)
+	(wire
+		(pts
 			(xy 60.96 74.93) (xy 71.12 74.93)
 		)
 		(stroke
@@ -124,6 +180,16 @@
 			(type default)
 		)
 		(uuid "f4ebd791-15d6-4d18-9e1a-2cfeb520f454")
+	)
+	(wire
+		(pts
+			(xy 259.08 104.14) (xy 261.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe08c84c-d7de-4db4-86b8-d68f432a8464")
 	)
 	(hierarchical_label "AUDIO OUT"
 		(shape input)
@@ -175,6 +241,92 @@
 			(project "block diagram"
 				(path "/77b537aa-abd1-4b45-8666-f13206102f09/06c90ba9-5280-426d-b704-62779bf0bf86"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 119.38)
+		(size 31.75 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "1f0925f8-69dc-40ed-8a5c-0146bab057bf")
+		(property "Sheetname" "microcontroller"
+			(at 161.29 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 161.29 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09/06c90ba9-5280-426d-b704-62779bf0bf86"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 119.38)
+		(size 31.75 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "3c5ee340-c40b-4510-a7f1-7043bef4ddec")
+		(property "Sheetname" "digital to audio converter"
+			(at 212.09 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 212.09 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09/06c90ba9-5280-426d-b704-62779bf0bf86"
+					(page "12")
 				)
 			)
 		)

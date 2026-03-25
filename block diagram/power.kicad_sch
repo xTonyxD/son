@@ -499,6 +499,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "battery spec"
+		(exclude_from_sim no)
+		(at 254 83.82 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "https://www.alibaba.com/product-detail/XINGTO-Wholesale-OEM-ODM-XT60-Plug_1601588295564.html?spm=a2700.prosearch.normal_offer.d_title.105567afqntwCz&priceId=958610057aa24b5f973c01c3b15eb7c2")
+		)
+		(uuid "1c75337d-718c-46d5-9819-b3476d5ac999")
+	)
 	(junction
 		(at 180.34 132.08)
 		(diameter 0)
@@ -1070,6 +1081,57 @@
 				(path "/77b537aa-abd1-4b45-8666-f13206102f09/a1f87f20-3215-4349-bfe0-f2b04b01f16e"
 					(reference "Q?")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 39.37)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "1c3c90be-f674-4df8-8429-0f11832e3fca")
+		(property "Sheetname" "display"
+			(at 101.6 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 101.6 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "block diagram"
+				(path "/77b537aa-abd1-4b45-8666-f13206102f09/a1f87f20-3215-4349-bfe0-f2b04b01f16e"
+					(page "13")
 				)
 			)
 		)

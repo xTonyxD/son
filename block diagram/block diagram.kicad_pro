@@ -447,6 +447,18 @@
     [
       "1324f5ce-8cac-4bcb-bc52-77b70dc167d6",
       "RF amplifier"
+    ],
+    [
+      "1f0925f8-69dc-40ed-8a5c-0146bab057bf",
+      "microcontroller"
+    ],
+    [
+      "3c5ee340-c40b-4510-a7f1-7043bef4ddec",
+      "digital to audio converter"
+    ],
+    [
+      "1c3c90be-f674-4df8-8429-0f11832e3fca",
+      "display"
     ]
   ],
   "text_variables": {}
